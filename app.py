@@ -132,4 +132,4 @@ if st.button("🚀 Lancer le Scan", use_container_width=True):
         LayerControl().add_to(carte)
 
         # 4. On affiche la carte dans l'application
-        st_folium(carte, width=700, height=500)
+        st_folium(carte, width=700, height=500, returned_objects=[])
